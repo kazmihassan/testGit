@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//removed commits
+//Again changing to test
 @implementation ViewController
 
 @synthesize mapView;
