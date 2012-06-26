@@ -15,7 +15,7 @@
     IBOutlet MKMapView *mapView;
     IBOutlet UISegmentedControl *segmentedControlMapType;
 }
-//removing extra commits
+
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
 @property(nonatomic, retain) IBOutlet UISegmentedControl *segmentedControlMapType;
 
