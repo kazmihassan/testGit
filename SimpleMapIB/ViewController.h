@@ -15,8 +15,7 @@
     IBOutlet MKMapView *mapView;
     IBOutlet UISegmentedControl *segmentedControlMapType;
 }
-//here also i have some more changes
-//This is another new comment
+//removing extra commits
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
 @property(nonatomic, retain) IBOutlet UISegmentedControl *segmentedControlMapType;
 

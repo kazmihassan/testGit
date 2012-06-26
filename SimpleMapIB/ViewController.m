@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+//removed commits
 @implementation ViewController
 
 @synthesize mapView;
@@ -34,7 +34,7 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-//I have made some changes here
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
