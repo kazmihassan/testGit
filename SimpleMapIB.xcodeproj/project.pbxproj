@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C2D63A1581CA6C00F08072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C2D6391581CA6C00F08072 /* UIKit.framework */; };
+		B3C2D63C1581CA6C00F08072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C2D63B1581CA6C00F08072 /* Foundation.framework */; };
+		B3C2D63E1581CA6C00F08072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C2D63D1581CA6C00F08072 /* CoreGraphics.framework */; };
+		B3C2D6441581CA6C00F08072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C2D6421581CA6C00F08072 /* InfoPlist.strings */; };
+		B3C2D6461581CA6C00F08072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2D6451581CA6C00F08072 /* main.m */; };
+		B3C2D64A1581CA6C00F08072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2D6491581CA6C00F08072 /* AppDelegate.m */; };
+		B3C2D64D1581CA6C00F08072 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C2D64B1581CA6C00F08072 /* MainStoryboard.storyboard */; };
+		B3C2D6501581CA6C00F08072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2D64F1581CA6C00F08072 /* ViewController.m */; };
+		B3C2D6571581CC4800F08072 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C2D6561581CC4800F08072 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3C2D6351581CA6C00F08072 /* SimpleMapIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMapIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C2D6391581CA6C00F08072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3C2D63B1581CA6C00F08072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3C2D63D1581CA6C00F08072 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3C2D6411581CA6C00F08072 /* SimpleMapIB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMapIB-Info.plist"; sourceTree = "<group>"; };
+		B3C2D6431581CA6C00F08072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3C2D6451581CA6C00F08072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3C2D6471581CA6C00F08072 /* SimpleMapIB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMapIB-Prefix.pch"; sourceTree = "<group>"; };
+		B3C2D6481581CA6C00F08072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3C2D6491581CA6C00F08072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3C2D64C1581CA6C00F08072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B3C2D64E1581CA6C00F08072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3C2D64F1581CA6C00F08072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3C2D6561581CC4800F08072 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C2D6321581CA6C00F08072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2D6571581CC4800F08072 /* MapKit.framework in Frameworks */,
+				B3C2D63A1581CA6C00F08072 /* UIKit.framework in Frameworks */,
+				B3C2D63C1581CA6C00F08072 /* Foundation.framework in Frameworks */,
+				B3C2D63E1581CA6C00F08072 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C2D62A1581CA6C00F08072 = {
+			isa = PBXGroup;
+			children = (
+				B3C2D63F1581CA6C00F08072 /* SimpleMapIB */,
+				B3C2D6381581CA6C00F08072 /* Frameworks */,
+				B3C2D6361581CA6C00F08072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C2D6361581CA6C00F08072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2D6351581CA6C00F08072 /* SimpleMapIB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C2D6381581CA6C00F08072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2D6561581CC4800F08072 /* MapKit.framework */,
+				B3C2D6391581CA6C00F08072 /* UIKit.framework */,
+				B3C2D63B1581CA6C00F08072 /* Foundation.framework */,
+				B3C2D63D1581CA6C00F08072 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C2D63F1581CA6C00F08072 /* SimpleMapIB */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2D6481581CA6C00F08072 /* AppDelegate.h */,
+				B3C2D6491581CA6C00F08072 /* AppDelegate.m */,
+				B3C2D64B1581CA6C00F08072 /* MainStoryboard.storyboard */,
+				B3C2D64E1581CA6C00F08072 /* ViewController.h */,
+				B3C2D64F1581CA6C00F08072 /* ViewController.m */,
+				B3C2D6401581CA6C00F08072 /* Supporting Files */,
+			);
+			path = SimpleMapIB;
+			sourceTree = "<group>";
+		};
+		B3C2D6401581CA6C00F08072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2D6411581CA6C00F08072 /* SimpleMapIB-Info.plist */,
+				B3C2D6421581CA6C00F08072 /* InfoPlist.strings */,
+				B3C2D6451581CA6C00F08072 /* main.m */,
+				B3C2D6471581CA6C00F08072 /* SimpleMapIB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C2D6341581CA6C00F08072 /* SimpleMapIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C2D6531581CA6C00F08072 /* Build configuration list for PBXNativeTarget "SimpleMapIB" */;
+			buildPhases = (
+				B3C2D6311581CA6C00F08072 /* Sources */,
+				B3C2D6321581CA6C00F08072 /* Frameworks */,
+				B3C2D6331581CA6C00F08072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMapIB;
+			productName = SimpleMapIB;
+			productReference = B3C2D6351581CA6C00F08072 /* SimpleMapIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C2D62C1581CA6C00F08072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B3C2D62F1581CA6C00F08072 /* Build configuration list for PBXProject "SimpleMapIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3C2D62A1581CA6C00F08072;
+			productRefGroup = B3C2D6361581CA6C00F08072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C2D6341581CA6C00F08072 /* SimpleMapIB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C2D6331581CA6C00F08072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2D6441581CA6C00F08072 /* InfoPlist.strings in Resources */,
+				B3C2D64D1581CA6C00F08072 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C2D6311581CA6C00F08072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2D6461581CA6C00F08072 /* main.m in Sources */,
+				B3C2D64A1581CA6C00F08072 /* AppDelegate.m in Sources */,
+				B3C2D6501581CA6C00F08072 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3C2D6421581CA6C00F08072 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C2D6431581CA6C00F08072 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3C2D64B1581CA6C00F08072 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C2D64C1581CA6C00F08072 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C2D6511581CA6C00F08072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3C2D6521581CA6C00F08072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C2D6541581CA6C00F08072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMapIB/SimpleMapIB-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMapIB/SimpleMapIB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3C2D6551581CA6C00F08072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMapIB/SimpleMapIB-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMapIB/SimpleMapIB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C2D62F1581CA6C00F08072 /* Build configuration list for PBXProject "SimpleMapIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C2D6511581CA6C00F08072 /* Debug */,
+				B3C2D6521581CA6C00F08072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C2D6531581CA6C00F08072 /* Build configuration list for PBXNativeTarget "SimpleMapIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C2D6541581CA6C00F08072 /* Debug */,
+				B3C2D6551581CA6C00F08072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C2D62C1581CA6C00F08072 /* Project object */;
+}
