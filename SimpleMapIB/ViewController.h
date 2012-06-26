@@ -10,7 +10,7 @@
 #import <MapKit/MapKit.h>
 #import <MapKit/MKAnnotation.h>
 #import <MapKit/MKReverseGeoCoder.h>
-
+//This is the view controller
 @interface ViewController : UIViewController {
     IBOutlet MKMapView *mapView;
     IBOutlet UISegmentedControl *segmentedControlMapType;
